@@ -1,0 +1,12 @@
+.ToDoList {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    height: 600px;
+    overflow-y: auto;
+}
+
+::-webkit-scrollbar {
+    width: 0rem; 
+    height: 0rem; 
+  }

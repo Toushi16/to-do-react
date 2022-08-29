@@ -1,0 +1,27 @@
+.ToDo {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 12px;
+    background-color: #21212B;
+    border-radius: 1px 8px 8px 1px;
+    border-left: 3.5px solid #F95738;
+}
+
+.ToDo span {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.ToDo button {
+    background-color: transparent;
+    border: none;
+    color: red;
+    font-weight: bold;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+.ToDo button:focus {
+    text-shadow: 2px 2px 2px black;
+}
